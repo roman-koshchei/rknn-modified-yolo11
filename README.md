@@ -11,7 +11,7 @@ uv venv
 ```
 
 ```bash
-uv pip install -e '.[dev]'
+uv pip install -e ".[dev]"
 ```
 
 ```bash
