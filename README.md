@@ -15,9 +15,10 @@ uv pip install -e ".[dev]"
 ```
 
 ```bash
-uv pip install onnx
-```
+uv pip install onnx onnxscript
+``` 
 
 ```bash
 uv run --no-sync ultralytics/engine/exporter.py {model_path}
 ```
+
